@@ -8,7 +8,6 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center text-center space-y-8">
-      {/* Hero Section */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -22,9 +21,7 @@ export default function HomePage() {
           className="object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-white">
-            Welcome to Doraemon's World
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-white">Welcome to Doraemon&apos;s World</h1>
         </div>
       </motion.div>
 
